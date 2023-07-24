@@ -2,7 +2,7 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a string
+ * handle_write_char - A function that prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
@@ -10,7 +10,7 @@
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: The number of characters printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -46,8 +46,8 @@ int handle_write_char(char c, char buffer[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
+ * write_number - A function that prints a string
+ * @is_negative: List a of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -79,9 +79,9 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Write a number using a bufffer
+ * write_num - writes a number using a buffer
  * @ind: Index at which the number starts on the buffer
- * @buffer: Buffer
+ * @buffer: The buffer where the inputs are stored
  * @flags: Flags
  * @width: width
  * @prec: Precision specifier

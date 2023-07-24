@@ -9,7 +9,7 @@
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed.
+ * Return: Number of characters that are printed.
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -44,7 +44,7 @@ int print_unsigned(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of characters that are printed
  */
 int print_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)

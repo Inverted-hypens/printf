@@ -2,7 +2,7 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print_pointer - Prints the value of a pointer variable
+ * print_pointer - A function that prints the value of a pointer variable
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -54,7 +54,7 @@ int print_pointer(va_list types, char buffer[],
 
 /************************* PRINT NON PRINTABLE *************************/
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
+ * print_non_printable - A function that prints ascii codes in hexa of non printable chars
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -94,7 +94,7 @@ int print_non_printable(va_list types, char buffer[],
 
 /************************* PRINT REVERSE *************************/
 /**
- * print_reverse - Prints reverse string.
+ * print_reverse - A function that print a reverse of the entered string.
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags

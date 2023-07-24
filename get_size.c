@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_size - Calculates the size of the arg
+ * get_size - A function that calculates the size of the arg
  * @format: Formatted arg string
  * @i: List of args.
  *

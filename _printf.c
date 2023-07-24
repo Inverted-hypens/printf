@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function
- * @format: format.
- * Return: Printed chars.
+ * _printf - A function that prints input for display.
+ * @format: Specifies the format of the print.
+ * Return: The characters that are printed.
  */
 int _printf(const char *format, ...)
 {
