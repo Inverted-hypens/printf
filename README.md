@@ -1,6 +1,6 @@
 # 0x11. C - printf
 
-*** ALX Group Project to create printf ***
+***The first ALX Group Project to create printf***
 
 ## Contributors
 - Bestman Sene
